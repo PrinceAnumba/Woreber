@@ -2,3 +2,114 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    scroll-behavior: smooth;
+}
+
+.main {
+    background-color: rgb(218, 218, 218);
+    height: 100vh;
+}
+
+.small {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.mid {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.header {
+    font-size: 64px;
+    font-weight: 500;
+}
+
+/* BACKGROUND COLORS */
+.brown-bg-1 {
+    background: #1D0700;
+}
+.brown-bg-2 {
+    background: #2C2C2C;
+}
+.orange-bg {
+    background: #CB941E;
+}
+.milk-bg {
+    background: #FFE69F;
+}
+
+
+
+/* General Styles */
+
+.search-form-border {
+    border: 2px solid #F0F0F0;
+    height: 48px;
+}
+.search-form-border>div {
+    border-left: none;
+}
+.search-form-border input {
+    border-left: none;
+}
+.search-form-border input {
+    border-left: none;
+    max-width: 600px;
+    min-width: 300px;
+}
+.search-form-border .search-btn {
+    height: 48px;
+    width: 48px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn:hover {
+    background: #2C2C2C;
+    color: #fff;
+}
+.btn:hover {
+    transition: all 0.5s ease-in-out;
+}
+.btn-reverse:hover {
+    background: #4B4332;
+    transition: all 0.5s ease-in-out;
+}
+
+
+/* Navbar */
+
+nav ul li:hover {
+    color: #2C2C2C;
+}
+nav ul li {
+    transition: all 0.5s ease-in-out;
+}
+
+nav li.active {
+    color: #2C2C2C;
+}
+
+.dummy-section {
+    height: 300vh;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.footer {
+    height: 700px;
+}
+
+.footer-link:hover {
+    color: #CB941E;
+}
+
+.footer-link {
+    transition: all 0.2s ease-in;
+}
