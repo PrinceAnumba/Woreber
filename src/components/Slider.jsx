@@ -2,11 +2,11 @@ import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import images
-import { image1 } from "../assets";
-import { image2 } from "../assets";
-import { image3 } from "../assets";
-import { image4 } from "../assets";
-import { image5 } from "../assets";
+import  image1  from "../assets";
+import  image2  from "../assets";
+import  image3  from "../assets";
+import  image4  from "../assets";
+import  image5  from "../assets";
 
 // Import Swiper styles
 import "swiper/css";
