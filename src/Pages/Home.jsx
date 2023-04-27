@@ -1,12 +1,17 @@
 import React from 'react'
 import Footer from '../components/Footer'
+import Slider from '../components/Slider'
+import images from '../images'
+
 
 const Home = () => {
   return (
     <div>
-      <div className="dummy-section">
-        
-      </div>
+      <Slider />
+      <Slider />
+      <Slider />
+      <Slider />
+      <Slider />
       <Footer/>
     </div>
   )

@@ -94,9 +94,6 @@ nav li.active {
     color: #2C2C2C;
 }
 
-.dummy-section {
-    height: 300vh;
-}
 
 h2 {
     font-size: 24px;
@@ -112,4 +109,9 @@ h2 {
 
 .footer-link {
     transition: all 0.2s ease-in;
+}
+
+.vw {
+    /* height: 100vh; */
+    width: 109vw;
 }
