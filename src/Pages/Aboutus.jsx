@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 
 const Aboutus = () => {
   return (
-    <div>Aboutus
+    <div>About us
 
       <Footer/>
     </div>
