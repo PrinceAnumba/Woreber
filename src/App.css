@@ -26,6 +26,30 @@
     font-weight: 500;
 }
 
+h1 {
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.discover-btn {
+    width: 222px;
+    height: 64px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 15px rgba(255, 255, 255, 0.2);
+    border-radius: 73px;
+}
+
+.explore-btn {
+    width: 295px;
+    height: 64px;
+
+    border: 2px solid #FFFFFF;
+    /* w */
+    filter: drop-shadow(0px 10px 15px rgba(1, 115, 153, 0.2));
+    border-radius: 73px;
+}
+
 /* BACKGROUND COLORS */
 .brown-bg-1 {
     background: #1D0700;
@@ -85,6 +109,7 @@ input:focus {
 
 nav ul li:hover {
     color: #2C2C2C;
+
 }
 nav ul li {
     transition: all 0.5s ease-in-out;
@@ -105,6 +130,11 @@ h2 {
 
 .footer-link:hover {
     color: #CB941E;
+    
+}
+
+.social-links a img:hover {
+    filter: invert(59%) sepia(28%) saturate(1150%) hue-rotate(3deg) brightness(96%) contrast(90%);
 }
 
 .footer-link {
@@ -114,4 +144,39 @@ h2 {
 .vw {
     /* height: 100vh; */
     width: 109vw;
+}
+
+/* Slider Custom css */
+span.swiper-pagination-bullet-active {
+    width: 51px;
+    background: #D9D9D9;
+    border-radius: 32px;
+}
+
+span.swiper-pagination-bullet {
+    opacity: .7;
+    background: #c4c4c4;
+    
+}
+
+.swiper-pagination-bullets {
+    margin-bottom: 4rem;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.overlay .content h1 {
+    max-width: 50rem;
+    line-height: 55px;
+    text-align: center;
+}
+.overlay .content p {
+    max-width: 50rem;
+    line-height: 25px;
+    text-align: center;
 }

@@ -2,11 +2,7 @@ import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import images
-import  image1  from "../assets";
-import  image2  from "../assets";
-import  image3  from "../assets";
-import  image4  from "../assets";
-import  image5  from "../assets";
+import { image3, image4, image5 } from "../assets";
 
 // Import Swiper styles
 import "swiper/css";
@@ -31,43 +27,42 @@ export default function SliderComponent() {
                 }}
                 
                 modules={[Autoplay, Pagination, Navigation]}
-                className="mySwiper vh"
+                className="mySwiper vh relative"
             >
-                <SwiperSlide>
+                <SwiperSlide className="relative">
                     <img
                         className="object-fill w-full "
                         src={image5}
                         alt="image slide 1"
                     />
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide className="relative">
                     <img
                         className="object-fill w-full "
                         src={image4}
                         alt="image slide 2"
                     />
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide className="relative">
                     <img
                         className="object-fill w-full "
                         src={image3}
                         alt="image slide 3"
                     />
+                    
                 </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        className="object-fill w-full overflow-hidden"
-                        src={image2}
-                        alt="image slide 3"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        className="object-fill w-full overflow-hidden vw"
-                        src={image1}
-                        alt="image slide 3"
-                    />
-                </SwiperSlide>
+
+                <div className="overlay absolute top-0 flex justify-center items-center">
+                    <div className="content text-white flex justify-center items-center flex-col gap-4">
+                        <h1 className="">Find The Best Fashion Style For You</h1>
+                        <p className="small">Lorem ipsum dolor sit amet consectetur. Velit aenean vitae libero 
+                            sociis egestas sit ante. Massa urna morbi volutpat 
+                            arcu sit venenatis. Urna risus sapien amet vel a sit. 
+                        </p>
+                        <button className="discover-btn text-black font-medium mt-8">Discover More</button>
+                    </div>
+                </div>
+                
             </Swiper>
         </>
     );
