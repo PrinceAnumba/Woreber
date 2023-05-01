@@ -3,6 +3,7 @@ import Footer from '../components/Footer'
 import Slider from '../components/Slider'
 import { image1, image2, image3, image4 } from '../assets'
 import HomeSection from '../components/HomeSection'
+import OurServices from '../components/OurServices'
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <HomeSection image={image3} title="TEXTILES"/>
       <HomeSection image={image2} title="LEATHER GOODS"/>
       <HomeSection image={image1} title="ACCESSORIES"/>
+      <OurServices/>
       <Footer/>
     </div>
   )
