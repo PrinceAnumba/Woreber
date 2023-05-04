@@ -29,9 +29,11 @@ import floatimg4 from './floatimg4.png'
 import floatimg5 from './floatimg5.png'
 import heroimg2 from './heroimg2.png'
 import qualitybg from './quality-bg.png'
-import bulb from './bulb.png'
-import upicon from './upicon.png'
-import topnotch from './topnotch.png'
+import bulb from './bulb.svg'
+import upicon from './upicon.svg'
+import topnotch from './topnotch.svg'
+import woreberBlack from './Woreber.svg'
+
 
 
 
@@ -70,5 +72,6 @@ export {
     qualitybg,
     upicon,
     topnotch,
-    bulb
+    bulb,
+    woreberBlack
 }

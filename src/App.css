@@ -53,8 +53,8 @@ h3 {
 }
 
 .image-effect {
-    height: 425px;
-    width: 300px;
+    height: 525px;
+    width: 400px;
     background: #FFE69F;
 }
 
@@ -79,6 +79,10 @@ h3 {
     /* w */
     filter: drop-shadow(0px 10px 15px rgba(1, 115, 153, 0.2));
     border-radius: 73px;
+}
+.service-icon {
+    height: 92px;
+    width: 92px;
 }
 
 /* BACKGROUND COLORS */
