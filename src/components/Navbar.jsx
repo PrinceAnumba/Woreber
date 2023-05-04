@@ -3,7 +3,7 @@ import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <nav className='p-6 orange-bg sticky top-0'>
+    <nav className='p-6 orange-bg sticky top-0 '>
       <ul className='flex justify-center items-center gap-8 text-white medium'>
         <CustomLink to="/">HOME</CustomLink>
         <CustomLink to="AboutUs">ABOUT US</CustomLink>
