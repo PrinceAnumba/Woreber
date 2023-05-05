@@ -33,6 +33,11 @@ import bulb from './bulb.svg'
 import upicon from './upicon.svg'
 import topnotch from './topnotch.svg'
 import woreberBlack from './Woreber.svg'
+import blogimg1 from './Blog img 1.png'
+import blogimg2 from './Blog img 2.png'
+import blogimg3 from './Blog img 3.png'
+import blogimg4 from './Blog img 4.png'
+import blogimg5 from './Blog img 5.png'
 
 
 
@@ -73,5 +78,10 @@ export {
     upicon,
     topnotch,
     bulb,
-    woreberBlack
+    woreberBlack,
+    blogimg1,
+    blogimg2,
+    blogimg3,
+    blogimg4,
+    blogimg5
 }

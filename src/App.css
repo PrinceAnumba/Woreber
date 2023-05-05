@@ -140,6 +140,28 @@ label {
 
 /* General Styles */
 
+.blog-header-width {
+    width:  845px;
+}
+
+.blog-post-img {
+    width: 100%;
+}
+
+.blog-text-width {
+    width: 945px;
+}
+
+.btn-outlined {
+    border: 1px solid #1D0700;
+    padding: .3rem;
+    border-radius: 5px;
+}
+
+.date {
+    color: #967d7d;
+}
+
 .search-form-border {
     border: 2px solid #967d7d;
     height: 48px;
