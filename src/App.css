@@ -70,6 +70,20 @@ h5 {
     background: #FFE69F;
 }
 
+.back-to-top-btn {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    font-size: medium;
+    background: #CB941E;
+    
+}
+.back-to-top-btn img {
+    width: 20px;
+}
+
 .quality-overlay {
     height: 538px;
 }

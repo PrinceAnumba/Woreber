@@ -27,9 +27,9 @@ export default function SliderComponent() {
                 }}
                 
                 modules={[Autoplay, Pagination, Navigation]}
-                className="mySwiper vh relative"
+                className="mySwiper w-full relative"
             >
-                <SwiperSlide className="relative">
+                <SwiperSlide className="relative w-full">
                     <img
                         className="object-fill w-full "
                         src={image5}

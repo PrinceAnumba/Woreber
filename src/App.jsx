@@ -10,6 +10,7 @@ import Aboutus from './Pages/Aboutus';
 import OnlineShop from './Pages/OnlineShop';
 import Blog from './Pages/Blog';
 import Contact from './Pages/Contact';
+import BackToTop from './components/BackToTop';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Route path='/Blog' element={<Blog/>}/>
           <Route path='/Contact' element={<Contact/>}/>
         </Routes>
+        <BackToTop/>
        </div>
     </div>
   )
