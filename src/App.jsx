@@ -18,16 +18,15 @@ const App = () => {
        <Welcomebar/>
        <Utilitybar/>
        <Navbar/>
-       <div className="">
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/AboutUs' element={<Aboutus/>}/>
-          <Route path='/OnlineShop' element={<OnlineShop/>}/>
-          <Route path='/Blog' element={<Blog/>}/>
-          <Route path='/Contact' element={<Contact/>}/>
-        </Routes>
-        <BackToTop/>
-       </div>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/AboutUs' element={<Aboutus/>}/>
+        <Route path='/OnlineShop' element={<OnlineShop/>}/>
+        <Route path='/Blog' element={<Blog/>}/>
+        <Route path='/Contact' element={<Contact/>}/>
+      </Routes>
+      <BackToTop/>
+  
     </div>
   )
 }

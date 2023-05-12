@@ -78,8 +78,11 @@ h5 {
     width: 50px;
     font-size: medium;
     background: #CB941E;
+    transition: all 0.5s ease-in-out;
     
 }
+
+
 .back-to-top-btn img {
     width: 20px;
 }
@@ -210,6 +213,25 @@ input:focus {
 .btn-reverse:hover {
     background: #4B4332;
     transition: all 0.5s ease-in-out;
+}
+
+.dropdown {
+    z-index: 1000;
+    transition: 500ms ease-in-out;
+}
+
+.dropdown.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: var(500ms) ease;
+}
+  
+.dropdown.inactive{
+opacity: 0;
+visibility: hidden;
+transform: translateY(-20px);
+transition: var(500ms) ease;
 }
 
 
