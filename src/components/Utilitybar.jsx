@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Utilitybar = () => {
   return (
     <div className='bg-white flex justify-between items-center py-4 px-10 w-full'>
-        <Link to="/"><img src={logo} alt="logo" className='w-32'/></Link>
+        <Link to="/"><img src={logo} alt="logo" className='w-32 logo'/></Link>
         <div className="search">
             <form className='flex items-center search-form-border' action="" method="post">
                 <input className='small search-form-border h-full p-2' type="text" name="search" id="search" placeholder='Search Products'/>
@@ -16,8 +16,8 @@ const Utilitybar = () => {
         <div className="action flex items-center gap-3 small">
             <button className='btn p-3'>Login</button>
             <button className='btn p-3'>Signup</button>
-            <button><img src={HeartIcon} alt="heart-icon" /></button>
-            <button><img src={CartIcon} alt="cart-icon" /></button>
+            <button className='utility-icons'><img src={HeartIcon} alt="heart-icon" /></button>
+            <button className='utility-icons'><img src={CartIcon} alt="cart-icon" /></button>
         </div>
     </div>
   )

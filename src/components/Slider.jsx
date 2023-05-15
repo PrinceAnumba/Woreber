@@ -53,7 +53,7 @@ export default function SliderComponent() {
                 </SwiperSlide>
 
                 <div className="overlay absolute top-0 flex justify-center items-center">
-                    <div className="content text-white flex justify-center items-center flex-col gap-4">
+                    <div className="slider-content content text-white flex justify-center items-center flex-col gap-4">
                         <h1 className="">Find The Best Fashion Style For You</h1>
                         <p className="small">Lorem ipsum dolor sit amet consectetur. Velit aenean vitae libero 
                             sociis egestas sit ante. Massa urna morbi volutpat 

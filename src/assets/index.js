@@ -39,6 +39,7 @@ import blogimg3 from './Blog img 3.png'
 import blogimg4 from './Blog img 4.png'
 import blogimg5 from './Blog img 5.png'
 import arrowup from './up-arrow.svg'
+import MenuIcon from './Menu.svg'
 
 
 
@@ -85,5 +86,6 @@ export {
     blogimg3,
     blogimg4,
     blogimg5,
-    arrowup
+    arrowup,
+    MenuIcon
 }
