@@ -552,6 +552,11 @@ span.swiper-pagination-bullet {
     }
     .information {
         grid-column: span 1;
+        gap: .5rem;
+    }
+
+    .socials {
+        gap: .5rem;
     }
 
 }
