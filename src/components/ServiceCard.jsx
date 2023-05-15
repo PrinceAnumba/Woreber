@@ -6,7 +6,7 @@ const ServiceCard = ({img}) => {
         <div className="service-image">
             <img src={img} alt="image" />
         </div>
-        <div className="content service-card">
+        <div className="content service-card flex flex-col items-center">
             <h5 className='font-semibold'>Find The Best Fashion Style For You</h5>
             <p className='small'>
             Lorem ipsum dolor sit amet consectetur. Velit aenean 
@@ -14,7 +14,7 @@ const ServiceCard = ({img}) => {
             arcu sit venenatis. Urna risus sapien amet vel a sit. 
             </p>
         </div>
-        <div className="contact">
+        <div className="contact flex items-center justify-center">
             <a href="#" className="service-link underline hover:text-blue-700">Contact us</a>
         </div>
     </div>

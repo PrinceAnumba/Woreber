@@ -3,7 +3,7 @@ import { NewsletterIcon } from '../assets/index'
 
 const NewsLetter = () => {
   return (
-    <div className='p-4 orange-bg flex justify-center items-center w-full'>
+    <div className='newsletter p-4 orange-bg flex justify-center items-center w-full'>
         <div className="form flex justify-center gap-80 items-center w-full " >
             <div className="text-lorem flex justify-between text-white gap-6">
                 <img className='w-8' src={NewsletterIcon} alt="" />

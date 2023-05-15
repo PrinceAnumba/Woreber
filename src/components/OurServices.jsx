@@ -7,8 +7,8 @@ const OurServices = () => {
   return (
     <div className='mt-12 mb-52'>
         <SectionHeader headerText="our services"/>
-        <div className="flex justify-center items-center ">
-            <div className="grid  grid-cols-3 gap-3 justify-center">
+        <div className="service-container flex justify-center items-center ">
+            <div className="services grid  grid-cols-3 gap-3 justify-center">
                 <ServiceCard img={imageh3}/>
                 <ServiceCard img={imageh1}/>
                 <ServiceCard img={imageh2}/>
