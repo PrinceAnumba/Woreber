@@ -346,6 +346,9 @@ span.swiper-pagination-bullet {
     .search-mobile input {
         border-radius: 0px;
     }
+    .search-mobile button {
+        margin: 5px;
+    }
 
     nav {
         justify-content: space-between;
