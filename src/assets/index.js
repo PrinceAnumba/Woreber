@@ -40,6 +40,7 @@ import blogimg4 from './Blog img 4.png'
 import blogimg5 from './Blog img 5.png'
 import arrowup from './up-arrow.svg'
 import MenuIcon from './Menu.svg'
+import CloseIcon from './close.svg'
 
 
 
@@ -87,5 +88,6 @@ export {
     blogimg4,
     blogimg5,
     arrowup,
-    MenuIcon
+    MenuIcon,
+    CloseIcon
 }
