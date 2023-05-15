@@ -6,9 +6,7 @@
     scroll-behavior: smooth;
 }
 
-nav {
-    z-index: 100;
-}
+
 
 body {
     background: #fff;
@@ -343,6 +341,14 @@ span.swiper-pagination-bullet {
         /* display: none; */
     }
 
+    .utility {
+        padding: 1rem;
+    }
+
+    .welcome {
+        padding: 1rem;
+    }
+
     .search-mobile input {
         border-radius: 0px;
     }
@@ -351,8 +357,10 @@ span.swiper-pagination-bullet {
     }
 
     nav {
+        display: flex;
         justify-content: space-between;
-        gap: 2rem;
+
+        padding: 1rem;
     }
 
     .nav-links {
@@ -586,7 +594,7 @@ span.swiper-pagination-bullet {
     
     .nav-menu-container-links {
         font-size: 16px;
-        width: 100px;
+        width: 105px;
     }
 
 }

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Utilitybar = () => {
   return (
-    <div className='bg-white flex justify-between items-center py-4 px-10 w-full'>
+    <div className=' utility bg-white flex justify-between items-center py-4 px-10 w-full'>
         <Link to="/"><img src={logo} alt="logo" className='w-32 logo'/></Link>
         <div className="search">
             <form className='flex items-center search-form-border' action="" method="post">

@@ -7,7 +7,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <nav className='p-4 orange-bg flex items-center justify-center px-8 sticky top-0'>
+    <nav className='p-4 orange-bg  sticky top-0'>
       <ul className='flex justify-center items-center gap-8 text-white medium nav-links'>
         <CustomLink to="/">HOME</CustomLink>
         <CustomLink to="AboutUs">ABOUT US</CustomLink>
@@ -16,7 +16,7 @@ const Navbar = () => {
         <CustomLink to="Contact">CONTACT</CustomLink>
       </ul>
       <div className="search-mobile flex justify-center items-center">
-        <input className='small p-2' type="text" placeholder='Search Product' />
+        <input className='small p-2 h-full' type="text" placeholder='Search Product' />
         <button className='bg-white small h-full p-2 flex items-center gap-2 drop-black-icon'>Category <img src={DropdownIconBlack} alt="" /></button>
       </div>
       <div className="nav-menu relative">
