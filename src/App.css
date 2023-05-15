@@ -359,8 +359,9 @@ span.swiper-pagination-bullet {
     }
 
     h2 {
-        font-size: 16px;
-        font-weight: 500;
+        font-size: 18px;
+        font-weight: 600;
+
     }
 
     h3 {
@@ -547,6 +548,7 @@ span.swiper-pagination-bullet {
     .footer {
         grid-template-columns: repeat(1, minmax(0, 1fr));
         height: 100%;
+        gap: 4rem;
     }
     .information {
         grid-column: span 1;
