@@ -27,7 +27,7 @@ const Navbar = () => {
         }
         {
           toggleMenu && (
-            <div className="nav-menu-container absolute list-none flex flex-col orange-bg p-4 -right-4 text-white top-8">
+            <div className="nav-menu-container absolute list-none flex flex-col orange-bg p-4 -right-0 text-white top-8">
               <div className="nav-menu-container-links">
                 <CustomLink to="/">HOME</CustomLink>
                 <CustomLink to="AboutUs">ABOUT US</CustomLink>
