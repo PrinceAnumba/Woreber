@@ -971,6 +971,14 @@ span.swiper-pagination-bullet {
     .nav-menu-container {
         transition: all 300ms ease;
     }
+    
+    .nav-menu-container-links {
+        display: flex;
+    }
+
+    .nav-menu-container .signin {
+        width: 105px;
+    }   
 
     .search-mobile {
         display: flex;
