@@ -4,7 +4,7 @@ import { floatimg5 } from '../assets'
 const VosService = () => {
     return (
       <div className="flex justify-center items-center mb-32">
-          <div className='flex justify-center items-center float-content gap-8'>
+          <div className='vos-service flex justify-center items-center float-content gap-8'>
               <img src={floatimg5} alt="image" className='w-1/3' />
               <div className="float-bullet-content flex flex-col gap-8">
                   <h3>Vos services: </h3>
@@ -15,4 +15,4 @@ const VosService = () => {
     )
   }
 
-export default VosService
+export default VosService;

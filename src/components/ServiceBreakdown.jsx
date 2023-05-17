@@ -4,7 +4,7 @@ import { floatimg3, bulb, upicon, topnotch } from '../assets'
 const ServiceBreakdown = () => {
   return (
     <div className='my-32 flex justify-center items-center w-full'>
-        <div className="flex flex-row w-3/4  justify-between items-center">
+        <div className="services-bd flex flex-row w-3/4  justify-between items-center">
             <div className=" col-span-1 gap-8  w-1/2 flex flex-col justify-between h-full">
                 <h3>Service Client de 
                     qualité:</h3>

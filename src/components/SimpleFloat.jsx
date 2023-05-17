@@ -4,7 +4,7 @@ import { floatimg4 } from '../assets'
 const SimpleFloat = () => {
     return (
       <div className="flex justify-center items-center mb-32">
-          <div className='flex justify-center items-center float-content gap-4'>
+          <div className='simple-float flex justify-center items-center float-content gap-4'>
               <img src={floatimg4} alt="image" className='w-1/3' />
               <div className="float-bullet-content flex flex-col gap-8">
                   <h5 className='text-red-500'>M. Igneza Marius IHOU WATEBA</h5>

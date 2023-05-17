@@ -3,7 +3,7 @@ import { floatimg1 } from '../assets';
 
 const FloatContent = () => {
   return (
-    <div className=' flex justify-center items-center my-32'>
+    <div className=' floating-mb flex justify-center items-center my-32'>
         <div className="float-content flex justify-center items-center gap-8">
           <img src={floatimg1} alt="image" className="w-1/3" />
           <div className="float-right flex flex-col gap-10">
