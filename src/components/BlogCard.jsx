@@ -3,9 +3,9 @@ import { blogimg3, blogimg4, blogimg5 } from '../assets'
 
 function BlogCard() {
   return (
-    <div className='flex flex-col gap-4'>
+    <div className='blog-card flex flex-col gap-4'>
         <img className='blog-post-img' src={blogimg5} alt="blog-img" />
-        <div className="info flex  gap-4 items-center justify-between mr-4">
+        <div className="info blog-filter flex  gap-4 items-center justify-between mr-4">
             <div className=" flex gap-4">
                 <div className="btn-outlined">
                     Produits

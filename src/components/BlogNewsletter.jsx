@@ -4,7 +4,7 @@ import { NewsletterIcon } from '../assets/index'
 const BlogNewsLetter = () => {
   return (
     <div className='p-12 brown-bg-1 flex justify-center items-center w-full'>
-        <div className="form flex justify-center gap-80 items-center w-full " >
+        <div className="blog-newsletter-form flex justify-center gap-80 items-center w-full " >
             <div className="text-lorem flex justify-between text-white gap-6">
                 <img className='w-8' src={NewsletterIcon} alt="" />
                 <div className="hero">

@@ -4,13 +4,13 @@ import { blogimg1, blogimg2, blogimg3, blogimg4, } from '../assets'
 
 const BlogPost = () => {
   return (
-    <div className='flex items-center justify-center flex-col py-24 mx-24'>
+    <div className='blog flex items-center justify-center flex-col py-24 mx-24'>
         <div className="float-content flex  flex-col">
-            <h3 className='blog-header-width'>Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 className=''>Lorem ipsum dolor sit amet consectetur.</h3>
             <p className='text-justify'>Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. Scelerisque viverra donec diammeo ergw werg.</p>
         </div>
         <div className="flex items-center justify-center">
-            <img className='' src={blogimg1} alt="blog-img" />
+            <img className='blog-hero-img' src={blogimg1} alt="blog-img" />
         </div>
         <div className="float-content flex  flex-col my-12">
             <h5 className='blog-header-width'>Lorem ipsum dolor sit amet consectetur. Lorem scelerisque ridiculus sed ullamcorper. Blandit urna ornare pellentesque phasellus. </h5>
