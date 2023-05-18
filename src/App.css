@@ -1301,6 +1301,9 @@ span.swiper-pagination-bullet {
     .search-mobile {
         display: flex;
     }
+    .search-mobile input {
+        width: 150px;
+    }
 
     .drop-black-icon img{
         width: 15%;

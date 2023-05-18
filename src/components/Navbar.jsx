@@ -29,11 +29,11 @@ const Navbar = () => {
           toggleMenu && (
             <div className="nav-menu-container absolute list-none flex flex-col orange-bg p-4 -right-0 text-white top-12 gap-4">
               <div className="nav-menu-container-links flex flex-col gap-4">
-                <CustomLink onClick={()=> setToggleMenu(false)} to="/">HOME</CustomLink>
-                <CustomLink onClick={()=> setToggleMenu(false)} to="AboutUs">ABOUT US</CustomLink>
-                <CustomLink onClick={()=> setToggleMenu(false)} to="OnlineShop">ONLINE SHOP</CustomLink>
-                <CustomLink onClick={()=> setToggleMenu(false)} to="Blog">BLOG</CustomLink>
-                <CustomLink onClick={()=> setToggleMenu(false)} to="Contact">CONTACT</CustomLink>
+                <CustomLink className='w-full' onClick={()=> setToggleMenu(false)} to="/">HOME</CustomLink>
+                <CustomLink className='w-full' onClick={()=> setToggleMenu(false)} to="AboutUs">ABOUT US</CustomLink>
+                <CustomLink className='w-full' onClick={()=> setToggleMenu(false)} to="OnlineShop">ONLINE SHOP</CustomLink>
+                <CustomLink className='w-full' onClick={()=> setToggleMenu(false)} to="Blog">BLOG</CustomLink>
+                <CustomLink className='w-full' onClick={()=> setToggleMenu(false)} to="Contact">CONTACT</CustomLink>
               </div>
               <div className="signin flex flex-col justify-start gap-3 my-3" >
                 <button className='btn small p-2 bg-black'>Sign up</button>
