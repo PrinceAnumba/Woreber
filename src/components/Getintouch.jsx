@@ -4,9 +4,9 @@ import { FacebookIcon, WhatsappIcon, InstagramIcon, SkypeIcon, YoutubeIcon } fro
 
 const Getintouch = () => {
   return (
-    <div className='my-24 full form-content flex justify-center items-center gap-8'>
+    <div className='getintouch my-24 full form-content flex justify-center items-center gap-8'>
         <ContactForm/>
-        <div className="w-96 self-start pt-24 flex flex-col gap-4">
+        <div className="follow-us w-96 self-start pt-24 flex flex-col gap-4 ">
             <h5>You Can Follow Us ?</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui pharetra elementum sit id sagittis non donec egestas.</p>
             <div className="socials flex flex-col gap-8">

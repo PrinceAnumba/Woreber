@@ -2,8 +2,8 @@ import React from 'react'
 
 const ContactForm = () => {
   return (
-    <div>
-        <h3 className='text-black '>Get in touch</h3>
+    <div className='contact-form'>
+        <h3 className=' text-black '>Get in touch</h3>
         <form action="" method="post" className='grid grid-cols-2 gap-4'>
             <div className="contact-us name flex flex-col">
                 <label htmlFor="name">Name</label>

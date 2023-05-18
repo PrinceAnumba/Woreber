@@ -9,7 +9,7 @@ const Contact = () => {
     <div className='bg-white'>
       <Getintouch/>
       <SectionHeader headerText="FAQ"/>
-      <AccordionComp/>
+      <AccordionComp />
       <Footer/>
     </div>
   )

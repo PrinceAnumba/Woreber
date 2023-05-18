@@ -612,6 +612,62 @@ span.swiper-pagination-bullet {
         font-size: 16px;
         width: 105px;
     }
+
+
+    /* ----------------------------GET IN TOUCH STYLES-------------------- */
+    .getintouch {
+        flex-direction: row;
+        gap: 4rem;
+    }
+    .getintouch .follow-us{
+        margin-top: 4rem;
+    }
+
+    .contact-form h3 {
+        text-align: center;
+    }
+
+    .contact-form form {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0rem;
+        place-items: center;
+    }
+
+    .contact-form form textarea {
+        grid-column: span 1;
+        width: 300px;
+    }
+
+    .contact-us input {
+        height: 40px;
+        width: 320px;
+    }
+
+    .contact-us label {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .contact-form form button {
+        font-size: 14px;
+    }
+
+    .getintouch div {
+        text-align: center;
+        padding: 0 2rem;
+    }
+
+    .getintouch .social-links {
+        justify-content: center;
+    }
+
+    .accordion {
+        width: ;
+    }
+
+    .accordion-bg {
+        min-width: 320px;
+    }
 }
 
 
@@ -816,6 +872,62 @@ span.swiper-pagination-bullet {
 
     .blog-filter .btn-outlined {
         font-size: 12px;
+    }
+
+
+    /* ----------------------------GET IN TOUCH STYLES-------------------- */
+    .getintouch {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .contact-form h3 {
+        text-align: center;
+    }
+    .getintouch .follow-us {
+        align-self: center;
+    }
+
+    .contact-form form {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0rem;
+        place-items: center;
+    }
+
+    .contact-form form textarea {
+        grid-column: span 1;
+        width: 300px;
+    }
+
+    .contact-us input {
+        height: 40px;
+        width: 320px;
+    }
+
+    .contact-us label {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .contact-form form button {
+        font-size: 14px;
+    }
+
+    .getintouch div {
+        text-align: center;
+        padding: 0 2rem;
+    }
+
+    .getintouch .social-links {
+        justify-content: center;
+    }
+
+    .accordion {
+        width: ;
+    }
+
+    .accordion-bg {
+        min-width: 320px;
     }
 }
 
@@ -1545,7 +1657,7 @@ span.swiper-pagination-bullet {
 
 
 
-    /* ----------------------------ABOUT US ATYLES-------------------- */
+    /* ----------------------------BLOG STYLES-------------------- */
 
     .blog-hero-img {
         margin-top: 3rem;
@@ -1588,6 +1700,46 @@ span.swiper-pagination-bullet {
     }
     
 
+    /* ----------------------------GET IN TOUCH STYLES-------------------- */
+    .getintouch {
+        flex-direction: column;
+    }
+    .contact-form h3 {
+        text-align: center;
+    }
+    .contact-form form {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 1rem;
+        place-items: center;
+    }
+    .contact-form form textarea {
+        grid-column: span 1;
+        width: 300px;
+    }
+    .contact-us input {
+        height: 40px;
+        width: 320px;
+    }
+    .contact-us label {
+        font-size: 14px;
+    }
+    .contact-form form button {
+        font-size: 14px;
+    }
+    .getintouch div{
+        text-align: center;
+        padding: 0 2rem;
+    }
+    .getintouch .social-links{
+        justify-content: center;
+    }
+    .accordion {
+        width: ;
+    }
+    .accordion-bg {
+        min-width: 320px;
+    }
+
 
 }
 
@@ -1618,6 +1770,36 @@ span.swiper-pagination-bullet {
         height: 425px;
         width: 240px;
         background: #FFE69F;
+    }
+
+    /* ----------------------------GET IN TOUCH STYLES-------------------- */
+    .getintouch {
+        flex-direction: column;
+    }
+
+    .contact-form h3 {
+        text-align: center;
+    }
+
+    .contact-form form {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 1rem;
+        place-items: center;
+    }
+
+    .contact-form form textarea {
+        grid-column: span 1;
+    }
+
+    .contact-us input {
+        height: 40px;
+        width: 250px;
+    }
+    .contact-us label {
+        font-size: 14px;
+    }
+    .contact-form form button {
+        font-size: 12px;
     }
 
 }

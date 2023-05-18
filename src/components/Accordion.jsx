@@ -6,21 +6,21 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const AccordionComp = () => {
   return (
-    <div className="flex justify-center items-center">
-        <div className='p-12 mb-24 accordion-bg' >
-            <Accordion defaultExpanded className='bg-none'>
+    <div className="accordion flex justify-center items-center">
+        <div className='  p-12 mb-24 accordion-bg' >
+            <Accordion defaultExpanded  >
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                 <h5>Question 1</h5>
                 </AccordionSummary>
                 <AccordionDetails>   
-                <p>
+                <p >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget.
                 </p>
                 </AccordionDetails>
             </Accordion>
             <Accordion  className='bg-none'>
-                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                <AccordionSummary expandIcon={<ExpandMoreIcon />} >
                 <h5>Question 2</h5>
                 </AccordionSummary>
                 <AccordionDetails>   
