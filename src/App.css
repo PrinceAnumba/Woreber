@@ -144,6 +144,9 @@ label {
 .milk-bg {
     background: #FFE69F;
 }
+.category-bg {
+    background: #F4F5F8;
+}
 
 .accordion-bg {
     background: #f9f9f9;
@@ -226,10 +229,10 @@ input:focus {
 }
   
 .dropdown.inactive{
-opacity: 0;
-visibility: hidden;
-transform: translateY(-20px);
-transition: var(500ms) ease;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: var(500ms) ease;
 }
 
 
@@ -255,6 +258,28 @@ nav li.active {
     color: #2C2C2C;
 }
 
+.category ul li.active {
+    background: rgb(156 163 175);
+}
+.category ul li {
+    padding: .5rem;
+}
+
+.category ul li:hover {
+    background: rgb(156 163 175);
+}
+
+.little-add-img-2 img {
+    grid-row-start: 2;
+    grid-column-start: 4;
+    object-fit: contain;
+    width: 81%;
+
+}
+.little-add-img-1 img {
+    width: 81%;
+
+}
 
 h2 {
     font-size: 24px;
@@ -301,6 +326,12 @@ span.swiper-pagination-bullet {
 
 .overlay {
     background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.add-overlay {
     height: 100%;
     width: 100%;
     z-index: 2;

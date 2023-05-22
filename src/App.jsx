@@ -11,6 +11,10 @@ import OnlineShop from './Pages/OnlineShop';
 import Blog from './Pages/Blog';
 import Contact from './Pages/Contact';
 import BackToTop from './components/BackToTop';
+import Clothing from './components/Clothing';
+import Textiles from './components/Textiles';
+import LeatherGoods from './components/LeatherGoods';
+import Accessories from './components/Accessories';
 
 const App = () => {
   return (
@@ -20,10 +24,15 @@ const App = () => {
        <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/AboutUs' element={<Aboutus/>}/>
-        <Route path='/OnlineShop' element={<OnlineShop/>}/>
-        <Route path='/Blog' element={<Blog/>}/>
-        <Route path='/Contact' element={<Contact/>}/>
+        <Route path='AboutUs' element={<Aboutus/>}/>
+        <Route path='OnlineShop' element={<OnlineShop/>}>
+          <Route path='Clothing' element={<Clothing/>}/>
+          <Route path='Textiles' element={<Textiles/>}/>
+          <Route path='LeatherGoods' element={<LeatherGoods/>}/>
+          <Route path='Accessories' element={<Accessories/>}/>
+        </Route>
+        <Route path='Blog' element={<Blog/>}/>
+        <Route path='Contact' element={<Contact/>}/>
       </Routes>
       <BackToTop/>
   

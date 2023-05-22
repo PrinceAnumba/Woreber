@@ -11,7 +11,7 @@ const Navbar = () => {
       <ul className='flex justify-center items-center gap-8 text-white medium nav-links'>
         <CustomLink to="/">HOME</CustomLink>
         <CustomLink to="AboutUs">ABOUT US</CustomLink>
-        <CustomLink to="OnlineShop">ONLINE SHOP</CustomLink>
+        <CustomLink onClick={Onlineshop} to="OnlineShop">ONLINE SHOP</CustomLink>
         <CustomLink to="Blog">BLOG</CustomLink>
         <CustomLink to="Contact">CONTACT</CustomLink>
       </ul>
@@ -31,7 +31,7 @@ const Navbar = () => {
               <div className="nav-menu-container-links flex flex-col gap-4">
                 <CustomLink className='w-full' onClick={()=> setToggleMenu(false)} to="/">HOME</CustomLink>
                 <CustomLink className='w-full' onClick={()=> setToggleMenu(false)} to="AboutUs">ABOUT US</CustomLink>
-                <CustomLink className='w-full' onClick={()=> setToggleMenu(false)} to="OnlineShop">ONLINE SHOP</CustomLink>
+                <CustomLink className='w-full' onClick={()=> setToggleMenu(false)}  to="OnlineShop">ONLINE SHOP</CustomLink>
                 <CustomLink className='w-full' onClick={()=> setToggleMenu(false)} to="Blog">BLOG</CustomLink>
                 <CustomLink className='w-full' onClick={()=> setToggleMenu(false)} to="Contact">CONTACT</CustomLink>
               </div>
@@ -57,6 +57,12 @@ function CustomLink({ to, children, ...props }) {
         {children}
       </Link>
     </li>
+  )
+}
+
+function Onlineshop(){
+  return (
+    document.getElementById("general").style.display="inline"
   )
 }
 
