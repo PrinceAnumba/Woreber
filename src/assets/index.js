@@ -41,6 +41,9 @@ import blogimg5 from './Blog img 5.png'
 import arrowup from './up-arrow.svg'
 import MenuIcon from './Menu.svg'
 import CloseIcon from './close.svg'
+import ChevronLeft from './ChevronLeft.svg'
+import ChevronRight from './ChevronRight.svg'
+import Slideimg from './slideimg1.png'
 
 
 
@@ -89,5 +92,8 @@ export {
     blogimg5,
     arrowup,
     MenuIcon,
-    CloseIcon
+    CloseIcon,
+    ChevronLeft,
+    ChevronRight,
+    Slideimg
 }

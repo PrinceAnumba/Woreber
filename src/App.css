@@ -80,6 +80,13 @@ h5 {
     
 }
 
+.right-icon {
+    border-radius: 50%;
+}
+.left-icon {
+    border-radius: 50%;
+}
+
 
 .back-to-top-btn img {
     width: 20px;
