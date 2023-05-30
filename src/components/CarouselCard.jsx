@@ -3,8 +3,8 @@ import { Slideimg } from '../assets'
 
 const CarouselCard = () => {
   return (
-    <div className=' flex flex-col gap-4 items-center justify-center '>
-        <img className='w-96' src={Slideimg} alt="/0" />
+    <div className=' carousel-card flex flex-col gap-4 items-center justify-center '>
+        <img className='' src={Slideimg} alt="" />
         <p>Clothings</p>
     </div>
   )

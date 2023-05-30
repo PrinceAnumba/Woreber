@@ -36,6 +36,11 @@ h1 {
     font-weight: 500;
 }
 
+h2 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
 h3 {
     font-weight: 500;
     font-size: 42px;
@@ -44,6 +49,10 @@ h3 {
 h5 {
     font-size: 24px;
     font-weight: 500;
+}
+h6 {
+    font-weight: 500;
+    font-size: 16px;
 }
 .h3 {
     font-weight: 500;
@@ -68,6 +77,13 @@ h5 {
     background: #FFE69F;
 }
 
+.carousel-card {
+}
+
+.carousel-card img {
+    width: 150px;
+}
+
 .back-to-top-btn {
     position: fixed;
     bottom: 50px;
@@ -85,6 +101,9 @@ h5 {
 }
 .left-icon {
     border-radius: 50%;
+}
+img {
+    max-width: none;
 }
 
 
@@ -111,6 +130,16 @@ h5 {
 
 .explore-btn {
     width: 295px;
+    height: 64px;
+
+    border: 2px solid #FFFFFF;
+    /* w */
+    filter: drop-shadow(0px 10px 15px rgba(1, 115, 153, 0.2));
+    border-radius: 73px;
+}
+
+.explore-btn-sm {
+    width: 100px;
     height: 64px;
 
     border: 2px solid #FFFFFF;

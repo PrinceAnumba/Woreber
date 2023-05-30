@@ -16,8 +16,8 @@ const ScrollCarousel = () => {
 
   return (
     <>
-      <div className='p-8 relative flex items-center'>
-        <div className=" left-icon h-16 w-16  flex justify-center items-center brown-bg-1" onClick={slideLeft}>
+      <div className='category-bg my-4 p-8 relative flex items-center w-full'>
+        <div className="m-4 left-icon h-10 w-10  flex justify-center items-center brown-bg-1" onClick={slideLeft}>
             <img src={ChevronLeft} alt="" />
         </div>
         <div
@@ -51,14 +51,8 @@ const ScrollCarousel = () => {
           <CarouselCard/>
           <CarouselCard/>
           <CarouselCard/>
-          <CarouselCard/>
-          <CarouselCard/>
-          <CarouselCard/>
-          <CarouselCard/>
-          <CarouselCard/>
-          <CarouselCard/>
         </div>
-        <div className="right-icon h-16 w-16  flex justify-center items-center brown-bg-1" onClick={slideRight}>
+        <div className="m-4 right-icon h-10 w-10  flex justify-center items-center brown-bg-1" onClick={slideRight}>
             <img src={ChevronRight} alt="" />
         </div>
       </div>

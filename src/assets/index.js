@@ -44,6 +44,9 @@ import CloseIcon from './close.svg'
 import ChevronLeft from './ChevronLeft.svg'
 import ChevronRight from './ChevronRight.svg'
 import Slideimg from './slideimg1.png'
+import ProductImg1 from './productimg1.png'
+import AdImg1 from './Adimg1.png'
+import AdImg2 from './Adimg2.png'
 
 
 
@@ -95,5 +98,8 @@ export {
     CloseIcon,
     ChevronLeft,
     ChevronRight,
-    Slideimg
+    Slideimg,
+    ProductImg1,
+    AdImg1,
+    AdImg2
 }
