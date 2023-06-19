@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import FloatContent from '../components/FloatContent'
 import FloatBullet from '../components/FloatBullet'
@@ -27,7 +26,6 @@ const Aboutus = () => {
       <KnowMore/>
       <VosService/>
       <Partners/>
-      <Footer/>
     </div>
   )
 }

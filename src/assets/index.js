@@ -47,6 +47,7 @@ import Slideimg from './slideimg1.png'
 import ProductImg1 from './productimg1.png'
 import AdImg1 from './Adimg1.png'
 import AdImg2 from './Adimg2.png'
+import NoImg from './noImg.png'
 
 
 
@@ -101,5 +102,6 @@ export {
     Slideimg,
     ProductImg1,
     AdImg1,
-    AdImg2
+    AdImg2,
+    NoImg
 }

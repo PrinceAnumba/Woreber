@@ -7,13 +7,15 @@ import { floatimg5, AdImg1, AdImg2 } from '../assets';
 import ScrollCarousel from '../components/ScrollCarousel'
 import ProductBar from '../components/ProductBar'
 import AdBlock from '../components/AdBlock'
+import ProductDetail from './ProductDetail';
 
 
 
 const OnlineShop = () => {
   return (
-    <div>
+    <div> 
       <CategoryNav/>
+      
       <Outlet />
       <div id='general' className="px-24 my-12">
           <div className="ad grid grid-cols-4 grid-rows-2 gap-4">
@@ -36,7 +38,6 @@ const OnlineShop = () => {
           </div>
           <ProductBar header="Popular Right Now"/>
       </div>
-      <Footer/>
     </div>
   )
 }

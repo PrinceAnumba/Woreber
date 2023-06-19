@@ -4,16 +4,14 @@ import { Link, useMatch, useResolvedPath,} from 'react-router-dom'
 const CategoryNav = () => {
 
   return (
-    <nav className='category nav-mb tb-center p-8 category-bg  sticky top-0 z-10'>
+    <nav className='cat-nav category nav-mb tb-center p-4 category-bg  sticky top-0 '>
       <ul className='flex justify-center items-center gap-8 text-neutral-800 medium nav-links'>
         <CustomLink className=' hover:bg-gray-400 ' to="/OnlineShop/Clothing">CLOTHING</CustomLink>
         <CustomLink className=' hover:bg-gray-400 ' to="/OnlineShop/Textiles">TEXTILES</CustomLink>
-        <CustomLink className=' hover:bg-gray-400 ' to="/OnlineShop/LeatherGoods">LEATHER GOODS</CustomLink>
+        <CustomLink className=' hover:bg-gray-400 ' to="/OnlineShop/LeatherGoods">COUTURE</CustomLink>
         <CustomLink className=' hover:bg-gray-400 ' to="/OnlineShop/Accessories">ACCESORIES</CustomLink>
       </ul>
     </nav>
-
-    
   )
 }
 

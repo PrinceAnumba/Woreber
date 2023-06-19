@@ -1,5 +1,6 @@
 import React from 'react'
 import ProductCard from "../components/ProductCard"
+import { ProductImg1 } from '../assets'
 
 const ProductBar = ({header}) => {
   return (
@@ -8,12 +9,14 @@ const ProductBar = ({header}) => {
             <h5>{header}</h5>
             <button>View All</button>
         </div>
-        <div className="products-bar flex justify-between items-center">
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
+        <div className="products-bar grid grid-cols-7 justify-center gap-8">
+            <ProductCard image={ProductImg1}/>
+            <ProductCard image={ProductImg1}/>
+            <ProductCard image={ProductImg1}/>
+            <ProductCard image={ProductImg1}/>
+            <ProductCard image={ProductImg1}/>
+            <ProductCard image={ProductImg1}/>
+            <ProductCard image={ProductImg1}/>
         </div>
     </div>
   )

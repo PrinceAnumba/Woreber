@@ -1,8 +1,33 @@
 import React from 'react'
+import ProductCardBtn from '../components/ProductCardBtn'
+import { ProductImg1 } from '../assets'
 
 const Clothing = () => {
   return (
-    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo ab a voluptates quam cumque eos, maxime reiciendis, modi soluta quia architecto illo totam aut, ducimus sapiente. Repellendus eius amet veritatis saepe libero soluta molestiae. Illo fugiat eligendi ullam nihil, incidunt, a expedita animi sunt architecto voluptatum eius deleniti quam nemo facere aut. Quia dicta dolore id odio laborum aperiam possimus culpa, natus excepturi a? Voluptas nobis commodi assumenda tempore ullam quo, temporibus accusamus. Culpa totam iure, quisquam, deserunt neque nesciunt beatae aliquid sapiente quo doloremque hic voluptatibus nulla eos consectetur quam vitae possimus consequatur tempore velit. Voluptatem explicabo molestias officia, soluta sapiente, veritatis aut at architecto deleniti amet, quo suscipit obcaecati aspernatur ipsa mollitia! Nihil inventore perferendis velit dolores enim facilis blanditiis doloribus provident sunt accusantium animi commodi aut, aliquid explicabo cum eos, officia, eveniet atque rerum at totam deserunt. Quae, eum commodi. Numquam consectetur distinctio tempore alias unde nulla, reprehenderit facilis, eius natus laudantium commodi beatae sunt provident quibusdam! Quo provident sapiente inventore officia reiciendis earum sed aperiam itaque, dicta neque vitae dolorem explicabo minima omnis. Non distinctio, cum necessitatibus porro, mollitia corporis minus animi est excepturi iste obcaecati incidunt sequi, consequatur vero? Facilis quos in voluptate illo dolores.</div>
+    <div className="mx-24 my-24">
+        <div className="grid grid-cols-7 justify-center gap-8">
+          <ProductCardBtn image={ProductImg1}/>
+          <ProductCardBtn image={ProductImg1}/>
+          <ProductCardBtn image={ProductImg1}/>
+          <ProductCardBtn image={ProductImg1}/>
+          <ProductCardBtn image={ProductImg1}/>
+          <ProductCardBtn image={ProductImg1}/>
+          <ProductCardBtn image={ProductImg1}/>
+          <ProductCardBtn image={ProductImg1}/>
+          <ProductCardBtn image={ProductImg1}/>
+          <ProductCardBtn image={ProductImg1}/>
+          <ProductCardBtn image={ProductImg1}/>
+          <ProductCardBtn image={ProductImg1}/>
+          <ProductCardBtn image={ProductImg1}/>
+          <ProductCardBtn image={ProductImg1}/>
+          <ProductCardBtn image={ProductImg1}/>
+          <ProductCardBtn image={ProductImg1}/>
+          <ProductCardBtn image={ProductImg1}/>
+          <ProductCardBtn image={ProductImg1}/>
+          <ProductCardBtn image={ProductImg1}/>
+          <ProductCardBtn image={ProductImg1}/>
+        </div>
+    </div>
   )
 }
 
