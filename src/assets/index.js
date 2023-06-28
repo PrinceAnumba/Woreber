@@ -52,7 +52,7 @@ import Back from './back.svg'
 import GoogleIcon from './google.png'
 import DiscountIcon from './Discount.svg'
 import Fb from './Fb.svg'
-import InstagramLg from './Instagramlogin.svg'
+import InstagramLg from './instagramlogin.svg'
 import TwitterIcon from './twitter.svg'
 
 
