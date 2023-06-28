@@ -49,7 +49,11 @@ import AdImg1 from './Adimg1.png'
 import AdImg2 from './Adimg2.png'
 import NoImg from './noImg.png'
 import Back from './Back.svg'
+import GoogleIcon from './google.png'
 import DiscountIcon from './Discount.svg'
+import Fb from './Fb.svg'
+import InstagramLg from './Instagramlogin.svg'
+import TwitterIcon from './twitter.svg'
 
 
 
@@ -107,5 +111,9 @@ export {
     AdImg2,
     NoImg,
     Back,
-    DiscountIcon
+    DiscountIcon,
+    GoogleIcon,
+    Fb,
+    InstagramLg,
+    TwitterIcon
 }

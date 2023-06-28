@@ -7,7 +7,7 @@ import CartItem from '../components/CartItem'
 const Cart = () => {
     const history = useNavigate();
   return (
-    <div className="flex justify-center items-center flex-col pb-32">
+    <div className="cart flex justify-center items-center flex-col pb-32">
         <div className="back w-4/5 my-24 flex flex-col ">
           <button onClick={()=> history(-1)}><img src={Back} alt="go-back" /></button>
           <h5 className=''>Cart <span className="mx-4 grey-out">3ITEMS</span></h5>

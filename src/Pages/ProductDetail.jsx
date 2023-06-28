@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { NoImg, ChevronLeft, ChevronRight, HeartIcon, Back } from '../assets'
 import Angle from '../components/Angle'
 import SimilarProducts from '../components/SimilarProducts'
+import Footer from "../components/Footer";
 // import useFetch from "../../hooks/useFetch";
 // import RelatedProducts from "./RelatedProducts/RelatedProducts";
 // import {
@@ -158,6 +159,7 @@ const ProductDetail = () => {
             </div>
 
             <SimilarProducts header="Related Products"/>
+
         </div>
     );
 };

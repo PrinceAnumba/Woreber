@@ -18,26 +18,27 @@ const OnlineShop = () => {
       
       <Outlet />
       <div id='general' className="px-24 my-12">
-          <div className="ad grid grid-cols-4 grid-rows-2 gap-4">
-            <AddSlider className="ad-slider "/>
-            <div className="little-add-img-1">
-                <img  src={floatimg5} alt="" />
-            </div>
-            <div className="little-add-img-2">
-                <img  src={floatimg5} alt="" />
-            </div>
+        <div className="ad grid grid-cols-4 grid-rows-2 gap-4">
+          <AddSlider className="ad-slider "/>
+          <div className="little-add-img-1">
+              <img  src={floatimg5} alt="" />
           </div>
-          <ScrollCarousel />
-          <ProductBar header="Woreber’s Top Selling Products"/>
-          <ProductBar header="Woreber’s Latest Products"/>
-          <ProductBar header="Best Price | Up tp 50% Off"/>
-          <ProductBar header="Woreber’ Luxury Products"/>
-          <div className="ad-block flex justify-center gap-8 items-center ">
-            <AdBlock img={AdImg1} title="Clothing"/>
-            <AdBlock img={AdImg2} title="Leather Goods"/>
+          <div className="little-add-img-2">
+              <img  src={floatimg5} alt="" />
           </div>
-          <ProductBar header="Popular Right Now"/>
+        </div>
+        <ScrollCarousel />
+        <ProductBar header="Woreber’s Top Selling Products"/>
+        <ProductBar header="Woreber’s Latest Products"/>
+        <ProductBar header="Best Price | Up tp 50% Off"/>
+        <ProductBar header="Woreber’ Luxury Products"/>
+        <div className="ad-block flex justify-center gap-8 items-center ">
+          <AdBlock img={AdImg1} title="Clothing"/>
+          <AdBlock img={AdImg2} title="Leather Goods"/>
+        </div>
+        <ProductBar header="Popular Right Now"/>
       </div>
+      <Footer/>
     </div>
   )
 }

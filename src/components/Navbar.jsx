@@ -27,7 +27,7 @@ const Navbar = () => {
         }
         {
           toggleMenu && (
-            <div className="nav-menu-container absolute list-none flex flex-col orange-bg p-4 -right-0 text-white top-12 gap-4">
+            <div className="nav-menu-container absolute list-none flex flex-col orange-bg p-4 -right-0 text-white top-12 gap-4 z-50">
               <div className="nav-menu-container-links flex flex-col gap-4">
                 <CustomLink className='w-full' onClick={()=> setToggleMenu(false)} to="/">HOME</CustomLink>
                 <CustomLink className='w-full' onClick={()=> setToggleMenu(false)} to="AboutUs">ABOUT US</CustomLink>
@@ -36,8 +36,8 @@ const Navbar = () => {
                 <CustomLink className='w-full' onClick={()=> setToggleMenu(false)} to="Contact">CONTACT</CustomLink>
               </div>
               <div className="signin flex flex-col justify-start gap-3 my-3" >
-                <button className='btn small p-2 bg-black'>Sign up</button>
-                <button className='btn small p-2 bg-white text-black'>Login</button>
+                <Link to="/Account/Signup"><button className='btn small p-2 bg-black w-full'>Sign up</button></Link>
+                <Link to="/Account/Login"><button className='btn small p-2 bg-white text-black w-full'>Login</button></Link>
               </div>
             </div>
           )

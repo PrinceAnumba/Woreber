@@ -9,6 +9,7 @@ import SimpleFloat from '../components/SimpleFloat'
 import KnowMore from '../components/KnowMore'
 import VosService from '../components/VosService'
 import Partners from '../components/Partners'
+import Footer from '../components/Footer'
 
 
 
@@ -26,6 +27,7 @@ const Aboutus = () => {
       <KnowMore/>
       <VosService/>
       <Partners/>
+      <Footer/>
     </div>
   )
 }

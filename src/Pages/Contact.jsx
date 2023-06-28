@@ -2,6 +2,7 @@ import React from 'react'
 import Getintouch from '../components/Getintouch'
 import AccordionComp from '../components/Accordion'
 import SectionHeader from '../components/SectionHeader'
+import Footer from '../components/Footer'
 
 const Contact = () => {
   return (
@@ -9,6 +10,7 @@ const Contact = () => {
       <Getintouch/>
       <SectionHeader headerText="FAQ"/>
       <AccordionComp />
+      <Footer/>
     </div>
   )
 }

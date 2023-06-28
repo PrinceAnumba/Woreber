@@ -14,8 +14,8 @@ const Utilitybar = () => {
             </form>
         </div>
         <div className="action flex items-center gap-3 small">
-            <button className='btn p-3'>Login</button>
-            <button className='btn p-3'>Signup</button>
+            <Link to="/Account/Login"><button className='btn p-3'>Login</button></Link>
+            <Link to="/Account/Signup"><button className='btn p-3'>Signup</button></Link>
             <Link to="/OnlineShop/Wishlist"><button className='utility-icons'><img src={HeartIcon} alt="heart-icon" /></button></Link>
             <Link to="/OnlineShop/Cart"><button className='utility-icons'><img src={CartIcon} alt="cart-icon" /></button></Link>
         </div>

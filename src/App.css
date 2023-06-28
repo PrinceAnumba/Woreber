@@ -167,6 +167,9 @@ label {
     text-transform: uppercase;
 }
 
+
+
+
 /* BACKGROUND COLORS */
 .brown-bg-1 {
     background: #1D0700;
@@ -279,7 +282,7 @@ input:focus {
     display: none;
 }
 .cat-nav {
-    z-index: 10000;
+    z-index: 100;
 }
 
 .search-mobile{
@@ -480,6 +483,20 @@ span.swiper-pagination-bullet {
 }
 .order-summary {
     flex: 1;
+}
+
+
+/* Login and signup styles */
+
+.cta-input {
+    width: 476px;
+    border-radius: 5px;
+    border: 1px solid #5e5e5e;
+}
+
+.cta-label {
+    color: #636363;
+    font-size: 18px;
 }
 
 /* MEDIA QUERIES FOR LAPTOPS */
@@ -832,6 +849,77 @@ span.swiper-pagination-bullet {
     .accordion-bg {
         min-width: 320px;
     }
+
+    /* Login and signup styles */
+
+    .cta-input {
+        width: 376px;
+        border-radius: 5px;
+        padding: .5rem;
+        border: 1px solid #5e5e5e;
+    }
+
+    .cta-label {
+        color: #636363;
+        font-size: 14px;
+    }
+    .login span {
+        font-size: 12px;
+    }
+    .login {
+        margin: 2rem 0;
+    }
+    .login-btn {
+        padding: .7rem;
+    }
+    .signup-btn {
+        padding: .7rem;
+    }
+
+    /* Cart styles */
+
+    .cart .back {
+        margin: 4rem 0;
+    }
+    
+    
+    
+    
+    /* wishlist styles */
+
+    .wishlist .back {
+        margin: 4rem 0;
+    }
+
+    .wish-img img {
+        height: 100%;
+        width: 100%;
+    }
+    .wish-img  {
+        width: 241px;
+        height: 276px;
+    }
+
+    /* online shop styles */
+    .products-bar {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+    .product-bar-btn {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+    .little-add-img-1 {
+        display: none;
+    }
+    .little-add-img-2 {
+        display: none;
+    }
+    .ad {
+        display: inline;
+    }
+    .add-overlay p {
+        line-height: 16px;
+    }
+    
 }
 
 
@@ -1092,6 +1180,86 @@ span.swiper-pagination-bullet {
 
     .accordion-bg {
         min-width: 320px;
+    }
+
+    /* Login and signup styles */
+
+    .cta-input {
+        width: 376px;
+        border-radius: 5px;
+        padding: .5rem;
+        border: 1px solid #5e5e5e;
+    }
+
+    .cta-label {
+        color: #636363;
+        font-size: 14px;
+    }
+    .login span {
+        font-size: 12px;
+    }
+    .login {
+        margin: 2rem 0;
+    }
+    .login-btn {
+        padding: .7rem;
+    }
+    .signup-btn {
+        padding: .7rem;
+    }
+
+    /* Cart styles */
+
+    .cart .back {
+        margin: 4rem 0;
+    }
+
+    .prod-detail-card {
+        flex-direction: column;
+    }
+    
+    
+    
+    
+    /* wishlist styles */
+
+    .wishlist .back {
+        margin: 4rem 0;
+    }
+
+    .wish-img img {
+        height: 100%;
+        width: 100%;
+    }
+    .wish-img  {
+        width: 241px;
+        height: 276px;
+    }
+    .wish-item .btns button{
+        padding: .3rem 1rem;
+    }
+    .wish-item .increment{
+        margin-right: 4rem;
+    }
+
+    /* online shop styles */
+    .products-bar {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .product-bar-btn {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .little-add-img-1 {
+        display: none;
+    }
+    .little-add-img-2 {
+        display: none;
+    }
+    .ad {
+        display: inline;
+    }
+    .add-overlay p {
+        line-height: 16px;
     }
 }
 
@@ -1390,6 +1558,94 @@ span.swiper-pagination-bullet {
     .nav-menu-container-links {
         font-size: 16px;
         width: 105px;
+    }
+
+    /* Login and signup styles */
+
+    .cta-input {
+        width: 376px;
+        border-radius: 5px;
+        padding: .5rem;
+        border: 1px solid #5e5e5e;
+    }
+
+    .cta-label {
+        color: #636363;
+        font-size: 14px;
+    }
+    .login span {
+        font-size: 12px;
+    }
+    .login {
+        margin: 2rem 0;
+    }
+    .login-btn {
+        padding: .7rem;
+    }
+    .signup-btn {
+        padding: .7rem;
+    }
+
+    /* Cart styles */
+
+    .cart .back {
+        margin: 4rem 0;
+    }
+
+    .prod-detail-card {
+        flex-direction: column;
+    }
+    
+    
+    
+    
+    /* wishlist styles */
+
+    .wishlist .back {
+        margin: 4rem 0;
+    }
+
+    .wish-img img {
+        height: 100%;
+        width: 100%;
+    }
+    .wish-img  {
+        width: 241px;
+        height: 276px;
+    }
+    .wish-item .btns button{
+        padding: .3rem 1rem;
+    }
+    .wish-item .increment{
+        margin-right: 2rem;
+    }
+
+    /* online shop styles */
+    .products-bar {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .product-bar-btn {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .little-add-img-1 {
+        display: none;
+    }
+    .little-add-img-2 {
+        display: none;
+    }
+    .ad {
+        display: inline;
+    }
+    .add-overlay p {
+        line-height: 16px;
+    }
+    .ad-block .overlay p {
+        font-size: 11px;
+        font-weight: 200;
+    }
+    
+    .ad-block .overlay button {
+        padding: .2rem 0;
     }
 }
 
@@ -1907,6 +2163,94 @@ span.swiper-pagination-bullet {
     }
     .accordion-bg {
         min-width: 320px;
+    }
+
+    /* Login and signup styles */
+
+    .cta-input {
+        width: 376px;
+        border-radius: 5px;
+        padding: .5rem;
+        border: 1px solid #5e5e5e;
+    }
+
+    .cta-label {
+        color: #636363;
+        font-size: 14px;
+    }
+    .login span {
+        font-size: 12px;
+    }
+    .login {
+        margin: 2rem 0;
+    }
+    .login-btn {
+        padding: .7rem;
+    }
+    .signup-btn {
+        padding: .7rem;
+    }
+
+    /* Cart styles */
+
+    .cart .back {
+        margin: 4rem 0;
+    }
+
+    .prod-detail-card {
+        flex-direction: column;
+    }
+    
+    
+    
+    
+    /* wishlist styles */
+
+    .wishlist .back {
+        margin: 4rem 0;
+    }
+
+    .wish-img img {
+        height: 100%;
+        width: 100%;
+    }
+    .wish-img  {
+        width: 241px;
+        height: 276px;
+    }
+    .wish-item .btns button{
+        padding: .3rem 1rem;
+    }
+    .wish-item .increment{
+        margin-right: 2rem;
+    }
+
+    /* online shop styles */
+    .products-bar {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .product-bar-btn {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .little-add-img-1 {
+        display: none;
+    }
+    .little-add-img-2 {
+        display: none;
+    }
+    .ad {
+        display: inline;
+    }
+    .add-overlay p {
+        line-height: 16px;
+    }
+    .ad-block .overlay p {
+        font-size: 11px;
+        font-weight: 200;
+    }
+    
+    .ad-block .overlay button {
+        padding: .2rem 0;
     }
 
 

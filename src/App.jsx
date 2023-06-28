@@ -19,6 +19,9 @@ import ProductDetail from './Pages/ProductDetail';
 import Footer from './components/Footer';
 import Cart from './components/Cart';
 import Wishlist from './components/Wishlist';
+import Login from './Pages/Login';
+import Signup from './Pages/Signup';
+import CtaNav from './components/CtaNav';
 
 const App = () => {
   return (
@@ -31,6 +34,11 @@ const App = () => {
           <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/AboutUs' element={<Aboutus/>}/>
+            <Route path='/Account' element={<CtaNav/>}>
+              <Route path='/Account/Login' element={<Login/>}/>
+              <Route path='/Account/Signup' element={<Signup/>}/>
+            </Route>
+            
             <Route path='/OnlineShop' element={<OnlineShop/>}>
               <Route path='/OnlineShop/Clothing' element={<Clothing/>}/>
               <Route path='/OnlineShop/Cart' element={<Cart/>}/>
@@ -45,7 +53,7 @@ const App = () => {
             <Route path='/Blog' element={<Blog/>}/>
             <Route path='/Contact' element={<Contact/>}/>
           </Routes>
-        <Footer/>
+        
         <BackToTop/>    
   
     </div>
