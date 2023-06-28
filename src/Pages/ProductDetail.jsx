@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
-import { useParams } from "react-router-dom";
-import { NoImg, ChevronLeft, ChevronRight, HeartIcon } from '../assets'
+import { useParams, useNavigate } from "react-router-dom";
+import { NoImg, ChevronLeft, ChevronRight, HeartIcon, Back } from '../assets'
 import Angle from '../components/Angle'
 import SimilarProducts from '../components/SimilarProducts'
 // import useFetch from "../../hooks/useFetch";
@@ -18,6 +18,7 @@ import SimilarProducts from '../components/SimilarProducts'
 const ProductDetail = () => {
     const [quantity, setQuantity] = useState(1);
     const { id } = useParams();
+    const history = useNavigate();
     // const { handleAddToCart } = useContext(Context);
     // const { data } = useFetch(`/api/products?populate=*&[filters][id]=${id}`);
 
@@ -34,8 +35,39 @@ const ProductDetail = () => {
     // if (!data) return;
     // const product = data?.data?.[0]?.attributes;
 
+
+    // Selecting color js
+    const COLOR_BTNS = document.querySelectorAll('.color');
+    COLOR_BTNS.forEach(color => {
+        color.addEventListener('click', () => {
+            let colorNameClass = color.className;
+            if(!color.classList.contains('active-color')){
+                let colorName = colorNameClass.slice(colorNameClass.indexOf('-') + 1, colorNameClass.length);
+                resetActiveBtns();
+                color.classList.add('active-color');
+                setNewColor(colorName)
+            }
+        });
+    })
+
+    // resetting all color btns
+    function resetActiveBtns(){
+        COLOR_BTNS.forEach(color => {
+            color.classList.remove('active-color');
+        });
+    }
+
+    // set new color on the banner right 
+    function setNewColor(color){
+        document.querySelector('.banner-right img').src = `images/tshirt_${color}.png`;
+    }
+    
+
     return (
-        <div className="flex justify-center items-center flex-col py-32">
+        <div className="flex justify-center items-center flex-col pb-32">
+            <div className="back w-full px-32 my-24">
+                <button onClick={()=> history(-1)}><img src={Back} alt="go-back" /></button>
+            </div>
             <div className="prod-detail-card flex gap-24">
                 <div className="image-carousel gap-8 relative">
                     <img className="w-full" src={NoImg} alt="" />

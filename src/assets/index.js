@@ -48,6 +48,8 @@ import ProductImg1 from './productimg1.png'
 import AdImg1 from './Adimg1.png'
 import AdImg2 from './Adimg2.png'
 import NoImg from './noImg.png'
+import Back from './Back.svg'
+import DiscountIcon from './Discount.svg'
 
 
 
@@ -103,5 +105,7 @@ export {
     ProductImg1,
     AdImg1,
     AdImg2,
-    NoImg
+    NoImg,
+    Back,
+    DiscountIcon
 }

@@ -17,7 +17,8 @@ import LeatherGoods from './components/LeatherGoods';
 import Accessories from './components/Accessories';
 import ProductDetail from './Pages/ProductDetail';
 import Footer from './components/Footer';
-import CategoryNav from './components/CategoryNav';
+import Cart from './components/Cart';
+import Wishlist from './components/Wishlist';
 
 const App = () => {
   return (
@@ -32,6 +33,8 @@ const App = () => {
             <Route path='/AboutUs' element={<Aboutus/>}/>
             <Route path='/OnlineShop' element={<OnlineShop/>}>
               <Route path='/OnlineShop/Clothing' element={<Clothing/>}/>
+              <Route path='/OnlineShop/Cart' element={<Cart/>}/>
+              <Route path='/OnlineShop/Wishlist' element={<Wishlist/>}/>
               <Route path='/OnlineShop/Textiles' element={<Textiles/>}>
                 <Route path='/OnlineShop/Textiles/:id' element={<ProductDetail/>}/>
               </Route>
