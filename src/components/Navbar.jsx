@@ -11,7 +11,7 @@ const Navbar = () => {
       <ul className='flex justify-center items-center gap-8 text-white medium nav-links'>
         <CustomLink to="/">HOME</CustomLink>
         <CustomLink to="AboutUs">ABOUT US</CustomLink>
-        <CustomLink onClick={Onlineshop} to="OnlineShop">ONLINE SHOP</CustomLink>
+        <CustomLink to="OnlineShop">ONLINE SHOP</CustomLink>
         <CustomLink to="Blog">BLOG</CustomLink>
         <CustomLink to="Contact">CONTACT</CustomLink>
       </ul>
