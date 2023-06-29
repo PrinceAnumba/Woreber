@@ -4,7 +4,7 @@ import { ProductImg1 } from '../assets'
 
 const ProductBar = ({header}) => {
   return (
-    <div className='my-4 category-bg p-8 flex flex-col gap-4'>
+    <div className='products-bar my-4 category-bg p-8 flex flex-col gap-4'>
         <div className=" flex justify-between items-center">
             <h5>{header}</h5>
             <button>View All</button>

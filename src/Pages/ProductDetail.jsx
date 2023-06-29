@@ -65,11 +65,11 @@ const ProductDetail = () => {
     
 
     return (
-        <div className="flex justify-center items-center flex-col pb-32">
-            <div className="back w-full px-32 my-24">
+        <div className="pd-details flex justify-center items-center flex-col pb-32">
+            <div className="back w-4/5 my-24">
                 <button onClick={()=> history(-1)}><img src={Back} alt="go-back" /></button>
             </div>
-            <div className="prod-detail-card flex gap-24">
+            <div className="prod-detail-card flex gap-24 w-4/5">
                 <div className="image-carousel gap-8 relative">
                     <img className="w-full" src={NoImg} alt="" />
                     <div className="move-left right-icon h-10 w-10  flex justify-center items-center brown-bg-1 absolute top-1/2 left-4">
@@ -145,7 +145,7 @@ const ProductDetail = () => {
                 </div>
             </div>
             <div className="other-angles flex flex-col justify-center items-center m-24">
-                <div className=" flex gap-8">
+                <div className=" grid grid-cols-5 gap-8">
                     <Angle img={NoImg}/>
                     <Angle img={NoImg}/>
                     <Angle img={NoImg}/>

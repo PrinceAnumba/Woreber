@@ -19,7 +19,7 @@ const Login = () => {
                         <input type="checkbox" name="remember" id="remember" className="mr-4"/>
                         <span className="text-gray-500">Remember me</span>
                     </div>
-                    <button>Forgot Password ?</button>
+                    <button className="forgot-btn">Forgot Password ?</button>
                 </div>
                 <button  className="login-btn my-8 py-4 rounded-md w-full bg-black text-white"  type="submit">Login</button>
 

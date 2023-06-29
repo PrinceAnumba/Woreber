@@ -54,7 +54,7 @@ const Cart = () => {
                     <input type="text" name="" id="" className='border w-full p-2 ' placeholder='Coupon Code'/>
                     <img src={DiscountIcon} alt="discount-icon" className=' absolute top-1/3 right-2' />
                   </div>
-                  <button className="my-8 py-2 w-full bg-black text-white">Add to Cart</button>
+                  <button className="my-8 py-2 w-full bg-black text-white">Check out</button>
                 </div>
               </div>
            </div>

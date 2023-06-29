@@ -23,7 +23,7 @@ const CartItem = () => {
 
 
   return (
-    <div className="">
+    <div className="cart-item">
         <div className='flex flex-row items-center gap-8 relative'>
             <div className="item-image angle-img">
                 <img src={NoImg} alt="" />
@@ -39,7 +39,7 @@ const CartItem = () => {
                     </div>
                     <div className=" flex gap-4 ">
                         <img src={HeartIcon} alt="" />
-                        <button className="text-red-700">Remove</button>
+                        <button className="remove-btn text-red-700">Remove</button>
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const ProductCardBtn = ({image}) => {
   return (
-    <div className='relative'>
+    <div className='ProductCardBtn relative'>
       <Link to={`OnlineShop/Textiles/`}>
         <img src={image} className='cursor-pointer' alt="product-image"  />
         <p className="discount absolute top-4 right-6 text-red-700">-50%</p>

@@ -25,7 +25,7 @@ const WishItem = () => {
 
   return (
     <div className=" wish-item">
-        <div className='flex  gap-8 '>
+        <div className='wish flex  gap-8 '>
             <div className=" gap-8 relative wish-img">
                 <img className="w-full" src={NoImg} alt="" />
             </div>
@@ -60,7 +60,7 @@ const WishItem = () => {
                         <button className="py-2 px-4" onClick={increment}><p>+</p></button>
                     </div>
 
-                    <div className="btns">
+                    <div className="ra-btns">
                         <button className="px-8 py-2 bg-orange-600 border mr-4 text-white hover:bg-black transition">Remove</button>
                         <button className="px-8 py-2 bg-black text-white">Add to Cart</button>
                     </div>

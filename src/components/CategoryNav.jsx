@@ -5,7 +5,7 @@ const CategoryNav = () => {
 
   return (
     <nav className='cat-nav category nav-mb tb-center p-4 category-bg  sticky top-0 '>
-      <ul className='flex justify-center items-center gap-8 text-neutral-800 medium nav-links'>
+      <ul className='flex justify-center items-center gap-8 text-neutral-800 medium'>
         <CustomLink className=' hover:bg-gray-400 ' to="/OnlineShop/Clothing">CLOTHING</CustomLink>
         <CustomLink className=' hover:bg-gray-400 ' to="/OnlineShop/Textiles">TEXTILES</CustomLink>
         <CustomLink className=' hover:bg-gray-400 ' to="/OnlineShop/LeatherGoods">COUTURE</CustomLink>

@@ -16,7 +16,7 @@ const ScrollCarousel = () => {
 
   return (
     <>
-      <div className='category-bg my-4 p-8 relative flex items-center w-full'>
+      <div className='scroll-carousel category-bg my-4 p-8 relative flex items-center w-full'>
         <div className="m-4 left-icon h-10 w-10  flex justify-center items-center brown-bg-1" onClick={slideLeft}>
             <img src={ChevronLeft} alt="" />
         </div>
